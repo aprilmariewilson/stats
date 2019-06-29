@@ -1,0 +1,27 @@
+{
+  "name": "stats",
+  "version": "1.0.0",
+  "description": "cv file running soccer stats using typescript",
+  "main": "index.js",
+  "scripts": {
+    "start:build": "tsc -w",
+    "start:run": "nodemon build/index.js",
+    "start": "concurrently npm:start:*"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/aprilmariewilson/stats.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/aprilmariewilson/stats/issues"
+  },
+  "homepage": "https://github.com/aprilmariewilson/stats#readme",
+  "dependencies": {
+    "@types/node": "^12.0.10",
+    "concurrently": "^4.1.1",
+    "nodemon": "^1.19.1"
+  }
+}
